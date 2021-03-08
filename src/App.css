@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepper {
+  margin-top: 50px;
 }
 
 .App-logo {
@@ -14,7 +28,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
