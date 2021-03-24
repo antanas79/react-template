@@ -34,7 +34,7 @@ const CustomCard = (): JSX.Element => {
   return (
     <Card className={classes.root}>
       <CardContent>
-        <CardHeader title="Miau"></CardHeader>
+        <CardHeader title="Test"></CardHeader>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
           Word of the Day
         </Typography>
